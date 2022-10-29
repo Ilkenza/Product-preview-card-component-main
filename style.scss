@@ -30,7 +30,6 @@ body{
         border-radius: 20px;
         .card-img{
             width: 350px;
-            background-image: url(images/image-product-desktop.jpg);
             display: block;
             height: 525px;
             border-top-left-radius: 20px;
@@ -117,13 +116,19 @@ body{
     body .card{ 
         flex-direction: column;
         .card-img{
-        background-image: url(images/image-product-mobile.jpg);
-        height: 300px;
-        border-bottom-left-radius:0px;
-        border-top-right-radius: 20px;
+        height: 245px;
+        source{
+            width: 350px;
+
+        }
+        img{
+            width: 350px;
+            border-top-left-radius:20px;
+             border-top-right-radius: 20px;
+        }
     }
     .card-text{
-        height: 60%;
+        height: 365px;
         border-top-right-radius:0px;
         border-bottom-left-radius: 20px;
         .crd-txt{

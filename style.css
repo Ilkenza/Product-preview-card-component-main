@@ -20,7 +20,6 @@ body .card {
 }
 body .card .card-img {
   width: 350px;
-  background-image: url(images/image-product-desktop.jpg);
   display: block;
   height: 525px;
   border-top-left-radius: 20px;
@@ -107,13 +106,18 @@ body .attribution a {
     flex-direction: column;
   }
   body .card .card-img {
-    background-image: url(images/image-product-mobile.jpg);
-    height: 300px;
-    border-bottom-left-radius: 0px;
+    height: 245px;
+  }
+  body .card .card-img source {
+    width: 350px;
+  }
+  body .card .card-img img {
+    width: 350px;
+    border-top-left-radius: 20px;
     border-top-right-radius: 20px;
   }
   body .card .card-text {
-    height: 60%;
+    height: 365px;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 20px;
   }
