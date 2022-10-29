@@ -115,6 +115,7 @@ body{
 @media (max-width: $media-desktop){
     body .card{ 
         flex-direction: column;
+        width: 0px;
         .card-img{
         height: 245px;
         source{
